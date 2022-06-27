@@ -1,0 +1,12 @@
+
+.imagem{
+    height: 29vh !important;
+}
+
+img{
+    object-fit: fill !important;
+}
+
+.curiosidade{
+    height: 19vh;
+}
