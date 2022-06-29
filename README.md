@@ -1,6 +1,36 @@
-# Getting Started with Create React App
+# Front end do museu de entomologia da UFRA - Universidade Federal Rural da Amazônia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Listagem, pesquisa, cadastro e edição de insetos
+
+Este projeto consome uma API localizada em https://github.com/Kevin3023/museu-entomologia para armazenar e fazer CRUD das informações dos insetos, tal como espécie, filo, ordem, classe, tipos de perna e etc.
+
+## Exemplo de uso
+
+* Visualizar curiosidades de diversas espécies cadastradas no banco de dados
+
+* Pesquisar insetos por nome
+
+* Cadastrar novos insetos e características morfológicas
+
+* Atualizar insetos ou características morfológicas
+
+* Deletar insetos ou características existentes
+
+## Ambiente de Desenvolvimento
+
+Basta ter o Node instalado no computador, clonar este repositório e então navegar pelo terminal até a pasta do projeto em seu computador e digitar os seguintes comandos:
+```sh
+npm install
+```
+E em seguida
+```sh
+npm start
+```
+
+![](/documentacao/pagina_inicial.png)
+![](/documentacao/pesquisa.png)
+![](/documentacao/membros.png)
+![](/documentacao/curiosidades.png)
 
 ## Available Scripts
 
@@ -39,32 +69,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Meta
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Kevin Gomes - kevin.gomes2309@gmail.com
