@@ -73,3 +73,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Meta
 
 Kevin Gomes - kevin.gomes2309@gmail.com
+Denis Junior - denis_jr2001@hotmail.com
