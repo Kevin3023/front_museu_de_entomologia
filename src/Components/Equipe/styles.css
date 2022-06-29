@@ -25,6 +25,16 @@
     justify-content: center;
 }
 
+.equipe-aux-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.equipe-aux{
+    display: flex;
+    flex-direction: row;
+}
+
 .container-bg{
     width: 300px;
     height: 380px;
@@ -73,6 +83,19 @@
     object-fit: cover;
 }
 
+.equipe-bg4{
+    background: url('./gabriel.svg') no-repeat;
+	background-size: cover;
+	background-position:center;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+}
+
 .equipe-intro1{
     width: 100%;
     background-color: #fffdf8;
@@ -95,8 +118,27 @@
     text-decoration: none;
 }
 
+@media only screen and (max-width: 1202px) {
 
-@media only screen and (max-width: 905px) {
+    .equipe-aux-container{
+        flex-direction: column;
+    }
+
+    .equipe-imgs{
+        height: 80vh;
+        margin-bottom: 10vh;
+    }
+
+    .equipe-container{
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 605px) {
+    
+    .equipe-aux{
+        flex-direction: column;
+    }
 
     .equipe-imgs{
         padding-top: 40vh;
@@ -104,32 +146,19 @@
     }
 
     .equipe-container{
-        height: 150vh;
+        height: 190vh;
     }
 
     .container-bg{
         padding-bottom: 20px;
     }
 
-    .equipe-bg1{
-        height: 220px;
-        width: 80%;
+    .equipe-aux-container{
+        margin-top: 30vh;
+        margin-bottom: 20vh;
     }
 
-    .equipe-bg2{
-        width: 80%;
-    }
-
-    .equipe-bg3{
-        width: 80%;
-    }
-
-    .equipe-intro1{
-        height: 60px;
-        width: 80%;
-    }
-
-    .equipe-intro1 h3{
-        padding-top: 0vh;
+    .equipe-imgs{
+        height: 100vh;
     }
 }
